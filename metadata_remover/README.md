@@ -1,49 +1,107 @@
 # Metadata Remover Tool
 
-A privacy-focused tool for viewing and removing metadata from files.
+A privacy-focused project that demonstrates how metadata can be inspected, interpreted, and removed from image files using Python.
 
-## Project Goal
+## Project Overview
 
-Many files contain hidden information known as metadata. This information may include:
+Metadata is hidden information embedded inside files. This information may reveal:
 
 - Device information
 - GPS coordinates
 - Creation dates
-- Author details
+- Camera details
 - Software information
 
-This project aims to help users inspect and remove metadata before sharing files.
+This project explores metadata handling through multiple versions, with each version introducing improvements in functionality, usability, and reliability.
 
-## Features
+---
 
-### Version 1
-- Read image metadata
-- Display metadata
-- Remove image metadata
-- Save cleaned images
+## Repository Structure
 
-### Future Features
-- PDF metadata removal
-- Word document metadata removal
-- Batch processing
-- Privacy risk analysis
+### Version 1 - Foundation
 
-## Tech Stack
+Focus:
 
-- Python
-- Pillow
-- Streamlit
+- Read raw metadata
+- Basic metadata removal
 
-## Project Status
+Key Learning:
 
-🚧 In Development
+- Image processing fundamentals
+- EXIF metadata access
+
+Path:
+
+```text
+version1/
+```
+
+---
+
+### Version 2 - Usability Improvements
+
+Focus:
+
+- Human-readable metadata
+- Safer image export process
+
+Key Learning:
+
+- Metadata interpretation
+- Improved user experience
+
+Path:
+
+```text
+version2/
+```
+
+---
+
+### Version 3 - Verification and Reusability
+
+Focus:
+
+- Function-based design
+- Metadata removal verification
+
+Key Learning:
+
+- Reusable code architecture
+- Privacy validation workflows
+
+Path:
+
+```text
+version3/
+```
+
+---
 
 ## Learning Objectives
 
-- Python file handling
+This repository was built to learn and demonstrate:
+
+- Python programming
+- File handling
+- Image processing
 - Metadata analysis
 - Privacy engineering
-- Security and privacy best practices
+- Secure file sharing practices
+
+---
+
+## Future Roadmap
+
+- PDF metadata inspection
+- PDF metadata removal
+- Word document metadata removal
+- Batch processing
+- Command-line interface
+- Streamlit web application
+- Privacy risk scoring
+
+---
 
 ## License
 
